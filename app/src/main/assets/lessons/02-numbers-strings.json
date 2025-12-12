@@ -1,0 +1,8 @@
+{
+  "id": "02-numbers-strings",
+  "title": "Numbers & Strings",
+  "level": "beginner",
+  "text": "Use numbers for maths and strings for text. Strings support concatenation and f-strings for interpolation.",
+  "example": "a = 3.5\nb = 2\nprint('sum =', a + b)\nname = 'Bob'\nprint(f'Hello {name}')",
+  "starter_code": "a = 10\nb = 4\nprint('a / b =', a / b)\nprint(f'a plus b = {a + b}')"
+}
