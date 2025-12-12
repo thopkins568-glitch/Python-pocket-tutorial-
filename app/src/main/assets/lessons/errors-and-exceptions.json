@@ -1,0 +1,8 @@
+{
+  "id": "10-errors-and-exceptions",
+  "title": "Errors & Exceptions",
+  "level": "beginner",
+  "text": "Handle runtime errors with try/except. Catch specific exceptions when possible.",
+  "example": "try:\n    x = int('a')\nexcept ValueError:\n    print('not an int')",
+  "starter_code": "try:\n    val = int(input('Enter a number: '))\n    print(val * 2)\nexcept Exception as e:\n    print('Error:', e)"
+}
