@@ -1,0 +1,8 @@
+{
+  "id": "06-conditions",
+  "title": "If / elif / else",
+  "level": "beginner",
+  "text": "Control flow: use if, elif, else to branch logic.",
+  "example": "x = 10\nif x < 5:\n    print('small')\nelif x < 15:\n    print('medium')\nelse:\n    print('large')",
+  "starter_code": "n = 7\nif n % 2 == 0:\n    print('even')\nelse:\n    print('odd')"
+}
