@@ -1,0 +1,8 @@
+{
+  "id": "07-loops",
+  "title": "Loops: for & while",
+  "level": "beginner",
+  "text": "for iterates over sequences. while loops until a condition is false. Use break and continue for control.",
+  "example": "for i in range(5):\n    print(i)\n\ncount = 0\nwhile count < 3:\n    print(count)\n    count += 1",
+  "starter_code": "i = 0\nwhile i < 3:\n    print('tick', i)\n    i += 1"
+}
