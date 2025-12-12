@@ -1,0 +1,8 @@
+{
+  "id": "12-modules",
+  "title": "Modules & import",
+  "level": "beginner",
+  "text": "Use import to reuse code. You can place Python files in app/src/main/python/ and import them with Chaquopy.",
+  "example": "import math\nprint(math.sqrt(16))",
+  "starter_code": "import math\nprint('pi ~', math.pi)"
+}
