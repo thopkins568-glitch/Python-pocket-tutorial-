@@ -1,0 +1,8 @@
+{
+  "id": "14-mini-project-calculator",
+  "title": "Mini-Project: Simple Calculator",
+  "level": "beginner",
+  "text": "Parse a simple expression like '3 + 4' and compute the result. Keep parsing minimal.",
+  "example": "expr = input('Expr: ')\nparts = expr.split()\nif len(parts)==3:\n    a, op, b = parts\n    a = float(a); b = float(b)\n    if op == '+': print(a+b)\n    elif op == '-': print(a-b)\n    elif op == '*': print(a*b)\n    elif op == '/': print(a/b)",
+  "starter_code": "expr = '3 + 4'\nparts = expr.split()\nprint(parts)"
+}
