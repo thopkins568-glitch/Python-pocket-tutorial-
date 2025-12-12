@@ -1,0 +1,8 @@
+{
+  "id": "15-readme-challenge",
+  "title": "Readme Challenge",
+  "level": "beginner",
+  "text": "Short graded challenge: write a function that returns True if a string is a palindrome.",
+  "example": "def is_pal(s):\n    s = ''.join(ch for ch in s.lower() if ch.isalnum())\n    return s == s[::-1]\nprint(is_pal('Racecar'))",
+  "starter_code": "def is_pal(s):\n    # TODO: implement\n    return False\n\nprint(is_pal('racecar'))"
+}
