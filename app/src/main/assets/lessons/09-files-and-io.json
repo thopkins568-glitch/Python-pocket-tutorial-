@@ -1,0 +1,8 @@
+{
+  "id": "09-files-and-io",
+  "title": "Files & I/O",
+  "level": "beginner",
+  "text": "Open files with open(). Use read(), readline(), or readlines(). Remember to close or use 'with' context manager.",
+  "example": "with open('/sdcard/sample.txt','w') as f:\n    f.write('hello')\n# reading (sandboxed example)",
+  "starter_code": "text = 'Example text\\nSecond line'\nprint(text.splitlines())"
+}
