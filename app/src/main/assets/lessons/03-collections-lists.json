@@ -1,0 +1,8 @@
+{
+  "id": "03-collections-lists",
+  "title": "Lists (collections)",
+  "level": "beginner",
+  "text": "Lists are ordered, mutable collections. Use indexing, append(), and iterate with for-loops.",
+  "example": "items = [1, 2, 3]\nitems.append(4)\nfor i in items:\n    print(i)",
+  "starter_code": "colors = ['red', 'green', 'blue']\ncolors.append('yellow')\nfor c in colors:\n    print(c)"
+}
