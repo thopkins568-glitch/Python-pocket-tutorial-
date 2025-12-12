@@ -1,0 +1,8 @@
+{
+  "id": "13-mini-project-guessgame",
+  "title": "Mini-Project: Guessing Game",
+  "level": "beginner",
+  "text": "Combine input, loops, and conditionals to build a number guessing game.",
+  "example": "import random\nsecret = random.randint(1,10)\nwhile True:\n    guess = int(input('Guess: '))\n    if guess == secret:\n        print('You win')\n        break\n    elif guess < secret:\n        print('higher')\n    else:\n        print('lower')",
+  "starter_code": "import random\nsecret = random.randint(1,20)\nprint('(Starter) secret generated. Replace prints with input to play.')"
+}
