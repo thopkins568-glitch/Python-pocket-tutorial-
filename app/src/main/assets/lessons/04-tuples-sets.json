@@ -1,1 +1,8 @@
-
+{
+  "id": "04-tuples-sets",
+  "title": "Tuples & Sets",
+  "level": "beginner",
+  "text": "Tuples are immutable ordered collections. Sets are unordered collections of unique items.",
+  "example": "t = (1,2)\ns = set([1,2,2])\nprint(t, s)",
+  "starter_code": "t = (10, 20)\nprint('first:', t[0])\ns = set([1,1,2,3])\nprint('unique:', s)"
+}
