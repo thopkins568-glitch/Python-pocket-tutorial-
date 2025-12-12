@@ -1,0 +1,8 @@
+{
+  "id": "08-functions",
+  "title": "Functions (def)",
+  "level": "beginner",
+  "text": "Functions bundle logic. Use def, parameters, and return values.",
+  "example": "def add(x, y):\n    return x + y\nprint(add(2,3))",
+  "starter_code": "def greet(name):\n    return f'Hello {name}'\nprint(greet('World'))"
+}
