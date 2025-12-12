@@ -1,0 +1,8 @@
+{
+  "id": "11-comprehensions",
+  "title": "Comprehensions",
+  "level": "beginner",
+  "text": "List/dict comprehensions create concise collections. Keep them readable.",
+  "example": "squares = [x*x for x in range(10)]\nprint(squares)",
+  "starter_code": "evens = [x for x in range(20) if x % 2 == 0]\nprint(evens)"
+}
