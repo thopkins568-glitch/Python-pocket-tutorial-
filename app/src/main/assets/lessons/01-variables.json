@@ -1,0 +1,8 @@
+{
+  "id": "01-variables",
+  "title": "Variables & assignment",
+  "level": "beginner",
+  "text": "Variables are names for values. You can assign values using =. Python is dynamically typed: variables hold references to objects.",
+  "example": "x = 5\nname = 'Alice'\nprint(x, name)",
+  "starter_code": "x = 5\nprint('x squared =', x*x)"
+}
