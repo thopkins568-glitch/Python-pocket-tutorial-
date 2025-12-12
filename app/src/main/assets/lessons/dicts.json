@@ -1,8 +1,0 @@
-{
-  "id": "05-dicts",
-  "title": "Dictionaries (dict)",
-  "level": "beginner",
-  "text": "Dictionaries map keys to values. Use dict[key] or dict.get(key, default). Iterate keys, values, or items.",
-  "example": "d = {'a':1, 'b':2}\nfor k, v in d.items():\n    print(k, v)",
-  "starter_code": "person = {'name':'Anna', 'age':28}\nprint(person['name'])\nprint(person.get('job','n/a'))"
-}
